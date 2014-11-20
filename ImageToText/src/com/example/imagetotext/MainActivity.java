@@ -42,7 +42,7 @@ public class MainActivity extends Activity {
         
         setContentView(R.layout.main_activity);
         
-        final String [] items			= new String [] {"Capture a picture", "Select from File"};				
+        final String [] items			= new String [] {"Take from camera", "Select from gallery"};				
 		ArrayAdapter<String> adapter	= new ArrayAdapter<String> (this, android.R.layout.select_dialog_item,items);
 		AlertDialog.Builder builder		= new AlertDialog.Builder(this);
 		
