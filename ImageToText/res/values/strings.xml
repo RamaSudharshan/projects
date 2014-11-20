@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Image To Text</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="textCrop">Pick and Crop an Image</string>
+    <string name="buttonCrop">Select Image</string>
+    <string name="textToCrop">Select an Image to Crop</string>
+
+</resources>
