@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="title_activity_new_mail">Create New Email</string>
+    <string name="prompt_emails">Email/s</string>
+    <string name="prompt_subject">Subject</string>
+    <string name="prompt_content">Message</string>
+    <string name="action_send_email">Send</string>
+</resources>

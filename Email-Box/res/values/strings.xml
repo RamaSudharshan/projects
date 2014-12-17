@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Email Box</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+    <string name="email_sender_field">From</string>
+    <string name="email_recievers_field">To</string>
+    <string name="email_content_field">Message</string>
+    <string name="action_new_email">New Email</string>
+    <string name="action_show_emails">View Emails</string>
+    <string name="logged_as">Logged As:  </string>
+    <string name="default_email">blablabla@blabla.com </string>
+    <string name="title_activity_show_email_list">ShowEmailListActivity</string>
+    <string name="title_activity_show_single_email">ShowSingleEmailActivity</string>
+    <string name="title_activity_reply_email">ReplyEmailActivity</string>
+    <string name="gmail">Gmail</string>
+    <string name="hotmail">Hotmail</string>
+    <string name="yahoo">Yahoo</string>
+    <string name="showMails">Show Mails</string>
+    <string name="newMail">New Mail</string>
+
+</resources>
