@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:id="@+id/showmails" 
+        android:title="@string/showMails">
+        
+    </item>
+    <item 
+        android:id="@+id/newmail" 
+        android:title="@string/newMail">
+        
+    </item>
+
+</menu>

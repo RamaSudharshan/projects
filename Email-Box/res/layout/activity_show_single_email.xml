@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShowSingleEmailActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false" >
+
+        <TextView
+            android:id="@+id/email_fromt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:focusable="false"
+            android:text="@string/default_from"
+            android:textSize="15sp" />
+        
+        
+        <TextView
+            android:id="@+id/message_from"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.90"
+            android:focusable="false"
+            android:text="@string/default_from" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false" >
+
+        <TextView
+            android:id="@+id/email_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:focusable="false"
+            android:text="@string/default_subject"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/message_subject"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.90"
+            android:focusable="false"
+            android:text="@string/default_subject" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/email_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:focusable="false"
+        android:text="@string/default_body"
+        android:textSize="15sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+	
+        <LinearLayout
+                    android:layout_width="match_parent"
+       				android:layout_height="wrap_content"
+        			android:orientation="vertical"
+        			android:focusable="false" >
+        <TextView
+            android:id="@+id/message_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|left"
+            android:minHeight="200dip"
+            android:minLines="5" />
+        
+         <Button
+                android:id="@+id/reply_button"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="42dp"
+                android:paddingRight="42dp"
+                android:text="@string/action_reply_email"
+                android:onClick="reply"/>
+         </LinearLayout>
+    </ScrollView>
+
+   
+    
+</LinearLayout>

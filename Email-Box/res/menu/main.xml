@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- Single menu item
+Set id, icon and Title for each menu item
+-->
+    <item 
+        android:id="@+id/gmail" 
+        android:title="@string/gmail" 
+        android:icon="@drawable/gmail">
+        
+    </item>
+    
+    <item 
+        android:id="@+id/item1" 
+        android:icon="@drawable/yahoo" 
+        android:title="@string/yahoo">
+        
+    </item>
+    <item 
+        android:id="@+id/item2" 
+        android:icon="@drawable/hotmail" 
+        android:title="@string/hotmail">
+        
+    </item>
+
+	
+</menu>
